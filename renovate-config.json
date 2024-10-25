@@ -1,0 +1,7 @@
+{
+    "extends": [
+      "github>openmfp/gha:renovate-base.json"
+    ],
+    "packageRules": [
+    ]
+}
