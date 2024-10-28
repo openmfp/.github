@@ -73,5 +73,5 @@
       ]
     }
   ],
-  "rebaseWhen": "auto",
+  "rebaseWhen": "auto"
 }
