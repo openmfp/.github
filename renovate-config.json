@@ -15,6 +15,11 @@
   ],
   "packageRules": [
     {
+      "managers": ["helmv3"],
+      "enabled": true,
+      "bumpVersion": "patch"
+    },
+    {
       "groupName": "NestJS",
       "matchPackagePrefixes": [
         "@nestjs/",
