@@ -9,7 +9,7 @@ ApeiroRA is a reference blueprint for an open, flexible, secure, and compliant n
 
 By being open source, ApeiroRA provides a cross-border spillover effect, solidifying the foundation and future of the project.
 
-To learn more about ApeiroRA, check out the official website at [https://apeirora.eu/](https://apeirora.eu/).
+Learn more about ApeiroRA by checking out the official website at [https://apeirora.eu/](https://apeirora.eu/).
 
 ## :handshake: openMFP and ApeiroRA
 
