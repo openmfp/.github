@@ -1,6 +1,6 @@
-# Welcome to the Open Micro Front End Platform (openMFP) Project on GitHub
+# Welcome to the Open Micro Front End Platform (OpenMFP) Project on GitHub
 
-:wave: Welcome to the official GitHub presence of openMFP. We are part of [ApeiroRA](https://apeirora.eu/content/projects/) which is an Important Project of Common European Interest - Next Generation Cloud Infrastructures and Services (IPCEI-CIS). We contribute to ApeiroRA's core aim of creating an overarching multi-provider cloud-edge continuum by bringing
+:wave: Welcome to the official GitHub presence of OpenMFP. We are part of [ApeiroRA](https://apeirora.eu/content/projects/) which is an Important Project of Common European Interest - Next Generation Cloud Infrastructures and Services (IPCEI-CIS). We contribute to ApeiroRA's core aim of creating an overarching multi-provider cloud-edge continuum by bringing
 together micro front ends and APIs into a cohesive platform, allowing teams to contribute components while maintaining their independence. 
 
 ## :globe_with_meridians: ApeiroRA?
@@ -11,7 +11,7 @@ By being open source, ApeiroRA provides a cross-border spillover effect, solidif
 
 Learn more about ApeiroRA by checking out the official website at [https://apeirora.eu/](https://apeirora.eu/).
 
-## :handshake: openMFP and ApeiroRA
+## :handshake: OpenMFP and ApeiroRA
 
 OpenMFP extends ApeiroRA's Platform Mesh principles to frontend development, creating a unified interface that evolves automatically with the underlying infrastructure. This is facilitated through the management of
 of [Micro Frontends](https://www.turing.com/blog/micro-frontends-what-are-they-when-to-use-them), a compartmentalized approach to front end development.
@@ -19,7 +19,7 @@ of [Micro Frontends](https://www.turing.com/blog/micro-frontends-what-are-they-w
 ## :penguin: Features
 
 - **Decoupled Development:** Teams can work independently using their preferred technologies, promoting agility and innovation while contributing to shared objectives.
-- **Unified User Experience:** OpenMFP integrates key systems like authentication, reducing redundancy and improving usability across services.
+- **Unified User Experience:**  integrates key systems like authentication, reducing redundancy and improving usability across services.
 - **Extension Mechanism:** The platform supports adding new micro front ends and APIs, ensuring scalability and adaptability to evolving needs.
 
 ## :busts_in_silhouette: Get Involved
@@ -33,4 +33,4 @@ To facilitate a nice environment for all, check out [our Code of Conduct](https:
 
 ## :books: Learn More
 
-To learn more about openMFP, stay tuned for the official documentation coming soon!
+To learn more about OpenMFP, please use our official documentation on https://openmfp.org.
