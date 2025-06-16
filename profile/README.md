@@ -16,6 +16,10 @@ Learn more about ApeiroRA by checking out the official website at [https://apeir
 OpenMFP extends ApeiroRA's Platform Mesh principles to frontend development, creating a unified interface that evolves automatically with the underlying infrastructure. This is facilitated through the management of
 of [Micro Frontends](https://www.turing.com/blog/micro-frontends-what-are-they-when-to-use-them), a compartmentalized approach to front end development.
 
+## :pushpin: OpenMFP and NeoNephos
+
+OpenMFP has been donated to the NeoNephos Foundation, a Linux Foundation initiative dedicated to advancing open-source projects that align with the strategic objectives of IPCEI-CIS under neutral governance. Learn more about NeoNephos and our role within it [here](https://neonephos.org).
+
 ## :penguin: Features
 
 - **Decoupled Development:** Teams can work independently using their preferred technologies, promoting agility and innovation while contributing to shared objectives.
