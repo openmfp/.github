@@ -16,6 +16,10 @@
   ],
   "packageRules": [
     {
+      "managers": ["npm"],
+      "rangeStrategy": "pin"
+    },
+    {
       "managers": ["helmv3"],
       "enabled": true,
       "bumpVersion": "patch"
