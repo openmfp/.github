@@ -38,7 +38,7 @@ We agree to restrict the following behaviors in our community. Instances, threat
 ## Reporting an Issue
 Tensions can occur between community members even when they are trying their best to collaborate. Not every conflict represents a code of conduct violation, and this Code of Conduct reinforces encouraged behaviors and norms that can help avoid conflicts and minimize harm.
 
-When an incident does occur, it is important to report it promptly. To report a possible violation, [NOTE: describe your means of reporting here. Could be an Email id or another method to report the violation.]
+When an incident does occur, it is important to report it promptly. To report a possible violation, Please send an Email to ospo@sap.com.
 
 Community Moderators take reports of violations seriously and will make every effort to respond in a timely manner. They will investigate all reports of code of conduct violations, reviewing messages, logs, and recordings, or interviewing witnesses and other participants. 
 Community Moderators will keep investigation and enforcement actions as transparent as possible while prioritizing safety and confidentiality. 
