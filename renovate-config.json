@@ -16,7 +16,21 @@
   ],
   "packageRules": [
     {
-      "managers": ["npm"],
+      "description": "Use bump strategy for production dependencies to maintain existing range types",
+      "matchDepTypes": ["dependencies"],
+      "matchManagers": ["npm"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "description": "Widen peer dependency ranges to support multiple versions",
+      "matchDepTypes": ["peerDependencies"],
+      "matchManagers": ["npm"],
+      "rangeStrategy": "widen"
+    },
+    {
+      "description": "Pin dev dependencies for reproducible builds",
+      "matchDepTypes": ["devDependencies"],
+      "matchManagers": ["npm"],
       "rangeStrategy": "pin"
     },
     {
