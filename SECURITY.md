@@ -2,7 +2,7 @@
 
 The OpenMFP project takes the security of our software seriously, including all source code repositories managed through the [openmfp](https://github.com/openmfp) GitHub organization.
 
-If you believe you have found a security vulnerability in any openmfp repository, please report it to us as described below.
+If you believe you have found a security vulnerability in any OpenMFP repository, please report it to us as described below.
 
 ## Reporting Security Issues
 
