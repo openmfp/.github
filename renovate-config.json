@@ -21,10 +21,19 @@
   ],
   "packageRules": [
     {
-      "description": "Use bump strategy for production dependencies to maintain existing range types",
+      "description": "Use replace strategy for library dependencies to preserve version ranges",
       "matchDepTypes": ["dependencies"],
       "matchManagers": ["npm"],
-      "rangeStrategy": "bump"
+      "matchFileNames": ["package.json"],
+      "matchJsonata": ["$.publishConfig"],
+      "rangeStrategy": "replace"
+    },
+    {
+      "description": "Pin application dependencies for reproducible production builds",
+      "matchDepTypes": ["dependencies"],
+      "matchManagers": ["npm"],
+      "matchJsonata": ["$.private = true and not($.publishConfig)"],
+      "rangeStrategy": "pin"
     },
     {
       "description": "Widen peer dependency ranges to support multiple versions",
@@ -85,6 +94,12 @@
       ],
       "automerge": false,
       "platformAutomerge": false
+    },
+    {
+      "description": "Trust our own shared actions repos — follow version tags without digest pinning",
+      "matchPackageNames": ["openmfp/gha", "openmfp/.github"],
+      "matchManagers": ["github-actions"],
+      "pinDigests": false
     },
     {
       "groupName": "Github Actions",
