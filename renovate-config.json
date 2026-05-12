@@ -3,7 +3,8 @@
   "extends": [
     "config:base",
     "helpers:pinGitHubActionDigests",
-    "docker:pinDigests"
+    "docker:pinDigests",
+    ":gitSignOff"
   ],
   "npm": {},
   "automerge": true,
@@ -45,20 +46,13 @@
     },
     {
       "groupName": "NestJS",
-      "matchPackagePrefixes": [
-        "@nestjs/",
-        "axios",
-        "nestjs",
-        "rxjs"
-      ],
+      "matchPackagePrefixes": ["@nestjs/", "axios", "nestjs", "rxjs"],
       "automerge": false,
       "platformAutomerge": false
     },
     {
       "groupName": "Luigi",
-      "matchPackagePrefixes": [
-        "@luigi-project/"
-      ],
+      "matchPackagePrefixes": ["@luigi-project/"],
       "automerge": false,
       "platformAutomerge": false
     },
@@ -97,9 +91,7 @@
     },
     {
       "allowedVersions": "<1.4.0",
-      "matchPackageNames": [
-        "k8s.io/client-go"
-      ]
+      "matchPackageNames": ["k8s.io/client-go"]
     }
   ],
   "rebaseWhen": "auto"
